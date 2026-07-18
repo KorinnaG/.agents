@@ -1,0 +1,35 @@
+# --- Secrets: never committed (see .ai/SECURITY.md) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Dependencies ---
+node_modules/
+
+# --- Build output ---
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.astro/
+coverage/
+
+# --- Logs & caches ---
+*.log
+.cache/
+.turbo/
+.eslintcache
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
